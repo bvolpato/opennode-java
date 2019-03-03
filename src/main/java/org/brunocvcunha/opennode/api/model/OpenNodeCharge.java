@@ -44,7 +44,7 @@ public class OpenNodeCharge {
     /**
      * Charge price in Satoshis
      */
-    private long amount;
+    private double amount;
 
     /**
      * Charge status
@@ -60,7 +60,7 @@ public class OpenNodeCharge {
     /**
      * Charge fee in satoshis
      */
-    private long fee;
+    private double fee;
     
     /**
      * Charge value at issue time

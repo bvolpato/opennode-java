@@ -34,7 +34,7 @@ public class OpenNodeCreateCharge {
     /**
      * Charge's price in satoshis, unless currency parameter is used.
      */
-    private long amount;
+    private double amount;
 
     private OpenNodeCurrency currency;
     
