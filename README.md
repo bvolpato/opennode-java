@@ -16,7 +16,7 @@ Download [the latest JAR][1] or grab via Maven:
 <dependency>
   <groupId>org.brunocvcunha.opennode-java</groupId>
   <artifactId>opennode-java</artifactId>
-  <version>1.0</version>
+  <version>1.2</version>
 </dependency>
 ```
 or Gradle:
