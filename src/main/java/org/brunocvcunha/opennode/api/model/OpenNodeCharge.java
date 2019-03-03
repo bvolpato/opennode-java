@@ -17,6 +17,7 @@ package org.brunocvcunha.opennode.api.model;
 
 import com.google.gson.annotations.SerializedName;
 
+import lombok.Data;
 import lombok.Getter;
 
 /**
@@ -24,7 +25,7 @@ import lombok.Getter;
  * @author brunovolpato
  *
  */
-@Getter
+@Data
 public class OpenNodeCharge {
     /**
      * Charge ID
