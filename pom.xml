@@ -19,7 +19,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.brunocvcunha.opennode-java</groupId>
 	<artifactId>opennode-java</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<packaging>jar</packaging>
 	<name>opennode-java</name>
 	<description>opennode-java</description>
