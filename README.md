@@ -16,12 +16,12 @@ Download [the latest JAR][1] or grab via Maven:
 <dependency>
   <groupId>org.brunocvcunha.opennode-java</groupId>
   <artifactId>opennode-java</artifactId>
-  <version>1.2</version>
+  <version>1.3</version>
 </dependency>
 ```
 or Gradle:
 ```groovy
-compile 'org.brunocvcunha.opennode-java:opennode-java:1.2'
+compile 'org.brunocvcunha.opennode-java:opennode-java:1.3'
 ```
 
 Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
