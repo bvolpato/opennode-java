@@ -31,7 +31,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 public class OpenNodeServiceFactory {
 
-    private static final String BASE_URL_V1 = "https://api.opennode.co/v1/";
+    private static final String BASE_URL_V1 = "https://api.opennode.com/v1/";
 
     public static OpenNodeService buildClient(String accessToken) {
         OkHttpClient httpClient = createClientInterceptor(accessToken);
