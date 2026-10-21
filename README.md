@@ -76,5 +76,10 @@ Want to tip a few satoshis? [tippin.me/@bruflow](https://tippin.me/@bruflow)
 
 opennode-java requires at minimum Java 8.
 
+Building from source requires JDK 21 or newer and Maven 3.6.3 or newer for the
+updated build plugins. `mvn clean verify` compiles against the Java 8 API and
+produces Java 8 bytecode. Its SDK compatibility tests use synthetic HTTP responses
+without contacting OpenNode or requiring an API token.
+
  [1]: https://search.maven.org/remote_content?g=org.brunocvcunha.opennode-java&a=opennode-java&v=LATEST
  [snap]: https://oss.sonatype.org/content/repositories/snapshots/
